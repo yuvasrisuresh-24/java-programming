@@ -1,0 +1,25 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+     Scanner sc=new Scanner(System.in);
+        int bsalary=sc.nextInt();
+        double HRA,DA;
+        if(bsalary<15000)
+        {
+            double csal=bsalary+(0.15*bsalary)+(0.9*bsalary);
+            System.out.printf("%.2f",csal);
+        }
+        else
+        {
+            double dsal=bsalary+(0.33*bsalary)+(0.98*bsalary);
+            System.out.printf("%.2f",dsal);
+        }
+    }
+    
+}
