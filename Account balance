@@ -21,7 +21,7 @@ public class Solution {
                   System.out.println("Insufficient Balance");  
                 }
                 break;
-                default:System.out.println("enter a number");
+                default:System.out.println("Invalid Input");
         }
     }
 }
