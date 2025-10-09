@@ -12,8 +12,8 @@ public class Solution {
         int b=sc.nextInt();
         int c=sc.nextInt();
         int d=sc.nextInt();
-        float e=(a+c)/2.0f;
-        float f=(b+d)/2.0f;
+        float e=(float)(a+c)/2;
+        float f=(float)(b+d)/2;
         System.out.println("Binoy's house is located at ("+e+","+f+")");  
     }
 }
