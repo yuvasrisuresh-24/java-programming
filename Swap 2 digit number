@@ -1,0 +1,27 @@
+import java.io.*;
+import java.util.*;
+import java.math.*;
+public class Solution {
+
+    public static void main(String[] args) {
+      Scanner  sc=new Scanner(System.in);
+          int n =sc.nextInt();
+          if(n>=10)
+           {
+            int num=n;
+              while(num>=100)
+              {
+                 num=num/10;
+              }
+              
+              int rev=num%10;          
+             int  n1= num/10;
+              int s=rev*10+n1;
+              System.out.println(s);
+           }  
+           else
+           {
+              System.out.println("STDOUT");  
+           }
+      }
+     }
