@@ -1,20 +1,17 @@
 import java.io.*;
 import java.util.*;
-import java.math.*;
 public class Solution {
 
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         long n=sc.nextLong();
-         long num = n ;  
         int count=0;
-        if(n>0&&n<=1000000)
+        if(n>=1&&n<=10000000)
         {
           while(n>0)
           {
-              long rev=n%10;
-            n=n/10;
-              count++;
+               count++;
+              n= n/10;
           }
            System.out.println("The count of the given integer is: "+count);
         }
@@ -25,4 +22,5 @@ public class Solution {
     }
 }
              
-        
+    
+            
